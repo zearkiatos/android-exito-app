@@ -6,4 +6,43 @@
     </style>
 
     <style name="Theme.ExitoApplication" parent="Base.Theme.ExitoApplication" />
+
+    <!-- ============================================ -->
+    <!-- ESTILOS BASE DE BOTONES -->
+    <!-- ============================================ -->
+
+    <!-- Estilo base para todos los botones -->
+    <style name="BaseButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Botón primario amarillo (Sign In principal) -->
+    <style name="ButtonPrimary" parent="BaseButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/yellow_background</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/redExito</item>
+        <item name="android:layout_marginHorizontal">48dp</item>
+        <item name="android:layout_marginVertical">16dp</item>
+    </style>
+
+    <!-- Botón secundario -->
+    <style name="ButtonSecondary" parent="BaseButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">48dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Botón recuperar contraseña -->
+    <style name="ButtonRecovery" parent="ButtonSecondary">
+        <item name="android:textColor">@color/orangeExito</item>
+    </style>
+
+    <!-- Botón Sign Up -->
+    <style name="ButtonSignUp" parent="ButtonSecondary" />
+
 </resources>
