@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">@color/blackExito</color>
+    <color name="colorPrimary">@color/yellowExito</color>
+    <color name="orangeExito">#FF9900</color>
+    <color name="colorAccent">@color/orangeExito</color>
+    <color name="yellowExito">#FFE700</color>
+    <color name="whiteExito">@color/white</color>
+    <color name="blackExito">@color/black</color>
+    <color name="darkOrangeExito">#5A3600</color>
+    <color name="redExito">#EC1C24</color>
+</resources>
