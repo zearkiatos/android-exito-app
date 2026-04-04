@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Exito Application</string>
+    <string name="vegetables_background_description">Vegetables Background</string>
+    <string name="send_label_button">Send</string>
+    <string name="recovery_account_label_button">Recovery Account</string>
+    <string name="sign_in_label_button">Sign In</string>
+    <string name="user_label">User</string>
+    <string name="password_label">Password</string>
+    <string name="user_hint">User</string>
+    <string name="password_hint">Password</string>
 </resources>
